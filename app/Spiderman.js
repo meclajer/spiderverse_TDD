@@ -1,6 +1,4 @@
 class Spiderman {
-
-    // Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "sony")
     constructor(name, age, actor, movies, studio) {
         this.name = name
         this.age = age
@@ -8,7 +6,6 @@ class Spiderman {
         this.movies = movies
         this.studio = studio
     }
-
 }
 
 module.exports = Spiderman
