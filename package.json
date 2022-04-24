@@ -1,0 +1,26 @@
+{
+  "name": "spiderverse",
+  "version": "0.0.1",
+  "description": "practica de diseño de software utilizando TDD (test driven development)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meclajer/spiderverse_TDD.git"
+  },
+  "keywords": [
+    "TDD",
+    "JS"
+  ],
+  "author": "meclajer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meclajer/spiderverse_TDD/issues"
+  },
+  "homepage": "https://github.com/meclajer/spiderverse_TDD#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
