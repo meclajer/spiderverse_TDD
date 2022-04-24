@@ -1,9 +1,11 @@
+const Spiderman = require("../app/Spiderman");
+
 describe("UT for spiderman class", () => {
 
     test('Case 1 Dummy', () => {
 
         // objt to test
-        const adrewGarfield = new Spiederman("Spiderman Sony", 31, "Andrew Garfield", 2, "sony")
+        const adrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "sony")
 
         // Data to evaluate
         expect(adrewGarfield.name).toBe("Spiderman Sony")
